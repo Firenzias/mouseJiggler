@@ -8,7 +8,7 @@ You will need:
 Arduino Leonardo
 Cable
 
-Credits in mouseJiggler.ino: 
+Credits in arduino.ino and digispark.ino: 
 
 Tom Igoe
 https://www.arduino.cc/en/Tutorial/BuiltInExamples/KeyboardAndMouseControl
