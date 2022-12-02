@@ -2,7 +2,7 @@
 
   MOUSE JIGGLER FOR ARDUINO:
 
-  mouseJiggler
+  arduino
   created 2022
   by Firenzias
 
@@ -40,7 +40,7 @@ const int pixelsMove = 1;
  
 void setup() {
   // set the digital pin as output:
-  pinMode(LED_BUILTIN, OUTPUT);
+  // pinMode(LED_BUILTIN, OUTPUT);
   Mouse.begin();
 }
 
@@ -57,7 +57,7 @@ void loop() {
 
   // actual script
 
-  delay(1000);
+  // delay(1000);
   // digitalWrite(LED_BUILTIN, HIGH); // turn the LED on (HIGH is the voltage level)
   delay(1000);
   Mouse.move(pixelsMove, 0);
